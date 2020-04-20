@@ -1,5 +1,5 @@
 # moi-gatsby-starter
-My personal gatsby starter
+My personal gatsby starter.
 This starter includes the following gatsby plugins:
 1. Gatsby plugin sass
 1. Gatsby plugin react helmet
