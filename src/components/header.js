@@ -5,10 +5,13 @@ import '../styles/_header.sass'
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div class="inner-container">
+    <div className="inner-container">
       <h1>
         <Link to="/">{siteTitle}</Link>
       </h1>
+      <div className="logo">
+
+      </div>
     </div>
   </header>
 )
