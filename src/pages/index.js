@@ -12,13 +12,13 @@ const IndexPage = () => (
       description="Plataforma de Video Conferencias"
       lang="es"
     />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Hola Todos</h1>
+    <p>Bienvenidos al Starter de Moi.</p>
+    <p>Vamos a construir algo increíble.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/page-2/">Vamos a la página 2</Link>
   </Layout>
 )
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Nombre de Proyecto`,
-    description: `Descripción de proyecto.`,
+    title: `Tu Proyecto`,
+    description: `Descripción de tu proyecto.`,
     author: `@moitorrijos`,
   },
   plugins: [
@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -27,15 +27,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`,
       },
-    },
-    {
-      resolve: "gatsby-plugin-react-svg",
-      options: {
-        rule: {
-          include: /assets/,
-        },
-      },
-    },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -11,7 +11,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import "../styles/_reset.sass"
 
 import Header from "./header"
-import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,21 +29,11 @@ const Layout = ({ children }) => {
       <div class="main-container">
         <main>{children}</main>
         <footer>
-          Llámame Online es un servicio de
-          {` `}
-          <a
-            href="https://servidoresrapidos.net"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Servidores Rápidos, S. A.
-          </a>
-          {` `}
           Todos los derechos reservados © {new Date().getFullYear()}. Diseñado y
           Desarrollado por
           {` `}
           <a
-            href="https://www.moitorrijos.com"
+            href="https://moitorrijos.com"
             target="_blank"
             rel="noopener noreferrer"
           >
